@@ -1,0 +1,50 @@
+.photo {
+	background: #161616;
+}
+
+.photo-card {
+	position: relative;
+}
+
+.photo-card .info {
+	position: absolute;
+	bottom: 0;
+}
+
+.photo-card .header {
+	left: 0;
+	z-index: 2; /* z-index is important here to make sure this is shown above the shadow */
+}
+
+.photo-card .header span {
+	color: #FAFAFA;
+}
+
+.photo-card .footer {
+	right: 0;
+	color: #FAFAFA;
+	z-index: 2; /* z-index is important here to make sure this is shown above the shadow */
+}
+
+.photo-card .footer button:disabled {
+	color: #3C3C3C;
+}
+
+.photo-card .image {
+	object-position: top;
+}
+
+/*
+	Using shadow to increase contrast between image and overlaid text
+*/
+.shadow {
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	box-shadow: inset 0px -50px 20px -18px rgba(0,0,0,1);
+	-webkit-box-shadow: inset 0px -120px 60px -18px rgba(0,0,0,0.85);
+	-moz-box-shadow: inset 0px -50px 20px -18px rgba(0,0,0,0.8);
+	z-index: 0;
+}

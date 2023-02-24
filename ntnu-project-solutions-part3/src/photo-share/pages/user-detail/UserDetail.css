@@ -1,0 +1,10 @@
+.chip-container {
+	margin-bottom: 1em;
+	display: flex;
+	gap: 0.35em;
+}
+
+.show-photos-button {
+	width: 10rem;
+	align-self: center;
+}

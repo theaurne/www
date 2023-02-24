@@ -1,0 +1,18 @@
+header.topbar {
+	height: 4rem;
+	justify-content: center;
+}
+
+header.topbar a.home {
+	color: #FAFAFA;
+}
+
+.toolbar {
+	justify-content: space-between;
+}
+
+.topbar-left-container {
+	display: flex;
+	align-items: center;
+	gap: 4rem;
+}

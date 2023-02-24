@@ -1,0 +1,34 @@
+/*
+	A bit of custom CSS here but nothing too exotic
+*/
+
+.comment a, .user-list a:visited {
+	color: #FAFAFA;
+	font-size: 0.85rem;
+}
+
+.comment a:hover {
+	color: #64ffda;
+}
+
+div.comment-header {
+	padding-bottom: 0.5rem;
+}
+
+.comment-header > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.comment-header span:last-child {
+	text-align: right;
+	color: #FAFAFA;
+	font-size: 0.75rem;
+}
+
+.comment div.comment-content {
+	font-family: 'Montserrat', 'sans-serif';
+	font-size: 1rem;
+	padding-top: 0;
+}

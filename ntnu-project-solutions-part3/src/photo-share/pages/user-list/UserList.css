@@ -1,0 +1,11 @@
+.user-list a, .user-list a:visited {
+	color: #FAFAFA;
+}
+
+.user-list a:hover {
+	background: #161616;
+}
+
+.user-list .active-user span {
+	color: #64ffda;
+}
