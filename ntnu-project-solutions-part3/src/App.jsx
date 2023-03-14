@@ -2,6 +2,8 @@ import React from 'react';
 import {Route, BrowserRouter as Router, Switch, Link} from 'react-router-dom';
 import PhotoShare from './photo-share/PhotoShare';
 
+password = "pass123"
+
 class App extends React.Component {
 	render() {
 		return (
